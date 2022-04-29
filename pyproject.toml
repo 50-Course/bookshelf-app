@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "bookapp"
+version = "0.1.0"
+description = "Minimalist Book-Shelf platform (--a virtual library) that hosts books of diverse categories."
+authors = ["50-Course <erioluwaadeodu@my.uopeople.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.0.4"
+djangorestframework = "^3.13.1"
+django-cors-headers = "^3.11.0"
+black = "^22.3.0"
+isort = "^5.10.1"
+flake8 = "^4.0.1"
+django-filter = "^21.1"
+Markdown = "^3.3.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
