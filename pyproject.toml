@@ -14,6 +14,7 @@ isort = "^5.10.1"
 flake8 = "^4.0.1"
 django-filter = "^21.1"
 Markdown = "^3.3.6"
+dj-rest-auth = "^2.2.4"
 
 [tool.poetry.dev-dependencies]
 
